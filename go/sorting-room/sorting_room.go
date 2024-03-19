@@ -56,7 +56,7 @@ func DescribeFancyNumberBox(fnb FancyNumberBox) string {
 		}
 		return fmt.Sprintf("This is a fancy box containing the number %.1f", float64(num))
 	}
-	return fmt.Sprintf("This is a fancy box containing the number 0.0")
+	return fmt.Sprint("This is a fancy box containing the number 0.0")
 }
 
 // DescribeAnything should return a string describing whatever it contains.
